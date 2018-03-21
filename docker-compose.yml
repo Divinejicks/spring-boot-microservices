@@ -1,7 +1,6 @@
 version: '2'
 services:
-  template-service:
-    build:
-      template-service
+  counterservice:
+    build: counterservice
     ports:
       - "8080:8080"
